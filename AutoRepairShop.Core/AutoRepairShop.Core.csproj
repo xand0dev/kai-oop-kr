@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Бізнес-логіка автосервісу: збирається в окрему бібліотеку AutoRepairShop.Core.dll -->
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AutoRepairShop.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="AutoRepairShop.Tests" />
+  </ItemGroup>
+</Project>

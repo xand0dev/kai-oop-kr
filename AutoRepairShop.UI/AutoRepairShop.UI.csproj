@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Консольний інтерфейс користувача; бізнес-логіку підключено як посилання на DLL-проєкт -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AutoRepairShop.UI</RootNamespace>
+    <AssemblyName>AutoRepairShop</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AutoRepairShop.Core/AutoRepairShop.Core.csproj" />
+  </ItemGroup>
+</Project>
